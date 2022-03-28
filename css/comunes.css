@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&display=swap');
 
 /* Variables */
 :root {
@@ -11,19 +10,7 @@
 
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
-}
-
-h3 {
-  color: var(--third-color);
-  font-size: 1.5rem;
-  text-align: center;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-h3 br {
-  display: none;
+  font-family: 'Barlow', sans-serif;
 }
 
 a {
@@ -37,10 +24,6 @@ ul {
 
 .alert { 
   width: 100%; 
-}
-
-#content {
-  margin-top: 76px;
 }
 
 .transition{
@@ -79,259 +62,24 @@ input:focus-visible {
   border-color: var(--secondary-color);
 }
 
-.navigation_container ul li .active {
-  color: var(--secondary-color)!important;
-}
-
-/* Newsletter */
-.newsletter {
-  margin-bottom: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background: #d0dddd;
-}
-
-.newsletter p {
-  color: var(--primary-color);
-  text-align: center;
-}
-
-.newsletter input {
-  margin-bottom: 15px;
-}
-
-.newsletter .btn-primary {
-  background: var(--third-color)!important;
-  border-color: var(--third-color)!important;
-  color: white!important;
-}
-
-.newsletter .btn-primary:hover {
-  background: var(--secondary-color)!important;
-  border-color: var(--secondary-color)!important;
-  color: white!important;
-}
-/* Newsletter end */
-
-/* Pasos */
-.pasos {
-  margin-bottom: 30px;
-}
-
-.pasos .background_pasos {
-  padding: 20px 15px;
-  background: var(--secondary-color);
-}
-
-.pasos .flecha_mobile {
-  position: absolute;
-  left: 50px;
-  top: calc(45% - 8px);
-  width: 0; 
-  height: 0; 
-  border-left: 10px solid white;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
-}
-
-.pasos .col-md-4:nth-child(2) .flecha_mobile {
-  top: calc(50% - 8px);
-}
-
-.pasos .col-md-4:nth-child(3) .flecha_mobile {
-  top: calc(60% - 8px);
-}
-
-.pasos .col-md-4 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: solid 1px white;
-  padding-bottom: 25px;
-}
-
-.pasos .col-md-4:last-child {
-  border-bottom: transparent;
-  padding-bottom: 0;
-}
-
-.pasos .col-md-4 p {
-  width: 100%;
-  color: white;
-  text-align: center;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.pasos .col-md-4 p br {
-  display: none;
-}
-
-.pasos .col-md-4 span {
-  font-size: 3rem;
-  font-weight: 900;
-  margin-bottom: -10px;
-}
-
-.pasos .col-md-4 .subrayado {
-  width: 60px;
-  height: 5px;
-  background: var(--primary-color);
-  margin: auto;
-  margin-top: 10px;
-  border-radius: 5px;
-}
-/* Pasos end */
-
-
 /* MEDIA QUERIES */
 @media (min-width: 480px) {
 
 }
 
 @media (min-width: 576px) {
-
-  /* Newsletter */
-  .newsletter {
-    border-radius: 5px;
-    padding: 20px;
-  }
-
-  .newsletter input {
-    margin-bottom: 0;
-  }
-  /* Newsletter end */
   
 }
 
 @media (min-width: 768px) {
 
-  h3 {
-    font-size: 2rem;
-    text-align: left;
-  }
-
-  /* Newsletter */
-  .newsletter .col-md-8 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .newsletter form {
-    width: 100%;
-  }
-
-  .newsletter p {
-    font-size: 0.75rem;
-    margin-bottom: 0;
-  }
-
-  .newsletter .btn-primary {
-    font-size: 0.85rem;
-    height: 100%;
-  }
-  /* Newsletter end */
-
-  /* Pasos */
-  /* Pasos */
-  .pasos {
-    margin-bottom: 60px;
-  }
-  
-  .home .pasos h3 br {
-    display: inline-block;
-  }
-
-  .pasos .background_pasos {
-    background: #008DDD;
-    background: -webkit-linear-gradient(top right, #008DDD, #FFCD5E);
-    background: -moz-linear-gradient(top right, #008DDD, #FFCD5E);
-    background: linear-gradient(to bottom left, #008DDD, #FFCD5E);
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .pasos .col-md-4 {
-    border-bottom: none;
-    padding-bottom: 0;
-    overflow: hidden;
-    padding-top: 20px!important;
-    padding-bottom: 20px!important;
-  }
-
-  .pasos .col-md-4:after {
-    content: url('../img/home/separador.png');
-    position: absolute;
-    right: 0;
-    object-fit: cover;
-  }
-
-  .pasos .col-md-4:last-child:after {
-    content: url('');
-  }
-
-  .pasos .col-md-4:nth-child(2) p,
-  .pasos .col-md-4:nth-child(3) p {
-    margin-right: 37px;
-  }
-
-  .pasos .flecha_mobile {
-    position: absolute;
-    left: calc(50% - 8px);
-    top: 0;
-    width: 0;
-    height: 0;
-    border-top: 10px solid white;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-  }
-
-  .pasos .col-md-4:nth-child(2) .flecha_mobile,
-  .pasos .col-md-4:nth-child(3) .flecha_mobile {
-    top: 0;
-    left: calc(43% - 8px);
-  }
-
-  .pasos .col-md-4 .subrayado {
-    background: var(--secondary-color);
-  }
-  /* Pasos end */
-
 }
 
 @media (min-width: 992px) {
-  /* Newsletter */
-  .newsletter p {
-    font-size: 1rem;
-  }
-  /* Newsletter end */
+  
 
 }
 
 @media (min-width: 1200px) {
-
-  .pasos .col-md-4 p {
-    margin-top: 20px;
-    font-size: 1.5rem;
-    font-weight: 900;
-    line-height: 1;
-  }
-
-  .pasos .col-md-4 p br {
-    display: inline-block;
-  }
-
-  .pasos .col-md-4 span {
-    font-size: 5rem;
-    margin-bottom: 5px;
-  }
-
-  .pasos .col-md-4 .subrayado {
-    margin-bottom: 15px;
-  }
-  /* Pasos end */
 
 }

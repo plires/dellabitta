@@ -15,6 +15,9 @@
 	<meta name="description" content="ascensores dellabitta. 70 años de experiencia en el rubro. Ascensores electromecanicos e hidráulicos.">
 	<title>Fabricación e instalación de ascensores y montacargas - Dellabitta</title>
 
+	<!-- Fonts -->
+	<?php include('includes/fonts.php'); ?>
+
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>
 
