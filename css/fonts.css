@@ -1,108 +1,78 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Barlow';
-  font-style: italic;
-  font-weight: 100;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHtv4kjgoGqM7E_CfNY8HMJmBUhfrGEPw.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Barlow';
-  font-style: italic;
-  font-weight: 100;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHtv4kjgoGqM7E_CfNY8H0JmBUhfrE.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Barlow';
-  font-style: italic;
-  font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHsv4kjgoGqM7E_CfOQ4mogvToJdLm8BvE.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Barlow';
-  font-style: italic;
-  font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHsv4kjgoGqM7E_CfOQ4mouvToJdLm8.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
+/* barlow-100 - latin */
 @font-face {
   font-family: 'Barlow';
   font-style: normal;
   font-weight: 100;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHrv4kjgoGqM7E3b_s1wH8DnzcjTrA.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url('../fonts/barlow-v11-latin-100.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v11-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v11-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v11-latin-100.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v11-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v11-latin-100.svg#Barlow') format('svg'); /* Legacy iOS */
 }
-/* latin */
+/* barlow-100italic - latin */
 @font-face {
   font-family: 'Barlow';
-  font-style: normal;
+  font-style: italic;
   font-weight: 100;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHrv4kjgoGqM7E3b_s7wH8Dnzcj.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('../fonts/barlow-v11-latin-100italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v11-latin-100italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v11-latin-100italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v11-latin-100italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v11-latin-100italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v11-latin-100italic.svg#Barlow') format('svg'); /* Legacy iOS */
 }
-/* latin-ext */
+/* barlow-300 - latin */
 @font-face {
   font-family: 'Barlow';
   font-style: normal;
   font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHqv4kjgoGqM7E3p-ks6Vostz0rdom9.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url('../fonts/barlow-v11-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v11-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v11-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v11-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v11-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v11-latin-300.svg#Barlow') format('svg'); /* Legacy iOS */
 }
-/* latin */
+/* barlow-300italic - latin */
 @font-face {
   font-family: 'Barlow';
-  font-style: normal;
+  font-style: italic;
   font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHqv4kjgoGqM7E3p-ks51ostz0rdg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('../fonts/barlow-v11-latin-300italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v11-latin-300italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v11-latin-300italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v11-latin-300italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v11-latin-300italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v11-latin-300italic.svg#Barlow') format('svg'); /* Legacy iOS */
 }
-/* latin-ext */
+/* barlow-regular - latin */
 @font-face {
   font-family: 'Barlow';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHpv4kjgoGqM7E_Ass5ynghnQci.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url('../fonts/barlow-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v11-latin-regular.svg#Barlow') format('svg'); /* Legacy iOS */
 }
-/* latin */
-@font-face {
-  font-family: 'Barlow';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHpv4kjgoGqM7E_DMs5ynghnQ.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
+/* barlow-700 - latin */
 @font-face {
   font-family: 'Barlow';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHqv4kjgoGqM7E3t-4s6Vostz0rdom9.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Barlow';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/barlow/v11/7cHqv4kjgoGqM7E3t-4s51ostz0rdg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('../fonts/barlow-v11-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v11-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v11-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v11-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v11-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v11-latin-700.svg#Barlow') format('svg'); /* Legacy iOS */
 }
