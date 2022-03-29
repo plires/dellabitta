@@ -7,11 +7,7 @@ const navigation = document.getElementById('navigation')
 const content = document.getElementById('content')
 var sending = document.getElementById('sending_form')
 
-const btnCloseSubnavigation = document.getElementsByClassName('close_subnavigation')
-
 const btnProducts = document.getElementById('btn_products')
-
-const subNavigation = document.getElementById('sub_navigation')
 
 function menuToggle() {
 	nav.classList.toggle('active')
@@ -24,78 +20,34 @@ function menuToggle() {
 		hamburger.classList.add('fa-bars')
 		hamburger.classList.remove('fa-times')
 		navigation.classList.remove('translate')
-		subNavigation.classList.remove('translate')
+		// subNavigation.classList.remove('translate')
 	}
 }
-
-function openProducts() {
-
-	if (document.body.getBoundingClientRect().width < 1024) { // chequea el ancho de la pantalla
-		navigation.classList.toggle('translate')
-		subNavigation.classList.toggle('translate')
-		return
-	} else {
-		subNavigation.classList.add('open')
-		return
-	}
-	
-}
-
-body.addEventListener('click', function(){
-	subNavigation.classList.remove('open') 
-});
-
-
 
 // HABILITAR ESTA FUNCION PARA QUE EL HEADER APAREZCA Y DESAPAREZCA EN FUNCION
 // DEL SCROLL HACIA ARRIBA O ABAJO
 var start = true;
-var scrollPos = 80;
 window.addEventListener('scroll', function(){
 
-	if ( (document.body.getBoundingClientRect()).top > scrollPos ) {
-		// console.log((document.body.getBoundingClientRect()).top)
-		// console.log('asdsad')
+	if ( window.scrollY > 200) {
 		showlHeader()
-	} else if( start ) {
-		showlHeader()
-		header.classList.remove('background')
-		start = false
 	} else {
-
-		if ( window.scrollY > 120 ) {
-			hidelHeader()
-			start = false
-		}
+		hidelHeader()
 	}
-
-	scrollPos = (document.body.getBoundingClientRect()).top
 
 });
 
-function showlHeader(){
-	header.classList.remove('hide')
+function showlHeader() {
 	header.classList.add('background')
 }
 
-function hidelHeader(){
-	header.classList.add('hide')
+function hidelHeader() {
 	header.classList.remove('background')
 }
 
 toggle.addEventListener('click', function(){
 	menuToggle()
 });
-
-for (var i = 0; i < btnCloseSubnavigation.length; i++) {
-
-	btnCloseSubnavigation[i].addEventListener('mouseover', function(e) {
-		subNavigation.classList.remove('open')
-	})
-
-}
-
-AOS.init();
 
 // Validacion del Formulario
 (function() {
@@ -147,3 +99,5 @@ function verifyRecaptcha(formName = null, key = null, action = null) {
   }
   
 }
+
+AOS.init();
