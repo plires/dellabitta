@@ -1,0 +1,124 @@
+/* Header */
+.empresa .header {
+	background: url('../img/empresa/header.jpg');
+	background-position: 79% 50%;
+	background-repeat: no-repeat;
+	height: 75vh;
+	margin-bottom: 30px;
+}
+
+.empresa .header .col-md-12 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.empresa .header h1 {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+  text-align: center;
+}
+
+.empresa .header h1 span {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.empresa .header h1:before {
+  content:url('../img/commons/figure-down.png'); /* with class ModalCarrot ??*/
+  position: absolute;
+  display: inline-block;
+  bottom: -50px;
+  left: -40px;
+  transform: scale(0.5);
+}
+
+.empresa .header h1:after {
+  content:url('../img/commons/figure-up.png'); /* with class ModalCarrot ??*/
+  position: absolute;
+  display: inline-block;
+  top: -45px;
+  right: -40px;
+  transform: scale(0.5);
+}
+/* Header end */
+
+/* Información */
+.empresa .informacion {
+	margin-bottom: 30px;
+}
+
+.empresa .informacion p {
+	font-weight: 300;
+}
+
+.empresa .informacion .encabezado,
+.empresa .informacion .datos,
+.empresa .informacion .img {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.empresa .informacion .datos {
+	order: 1;
+	margin-top: 30px;
+}
+/* Información end */
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+	/* Header */
+	.empresa .header h1 {
+	  font-size: 3rem;
+	}
+	/* Header end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Información */
+	.empresa .informacion .datos {
+		order: 0;
+	}
+	/* Información end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Header */
+	.empresa .header h1 {
+		margin-top: 80px;
+	  font-size: 3.5rem;
+	}
+	/* Header end */
+
+	/* Información */
+	.empresa .informacion p {
+		font-size: 1.25rem;
+	}
+	/* Información end */
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
+
+
+
+
+
