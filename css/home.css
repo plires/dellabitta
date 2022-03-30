@@ -1,5 +1,5 @@
 /* Video */
-.video {
+.home .video {
   position: relative;
   background-color: black;
   height: 75vh;
@@ -9,19 +9,19 @@
   margin-bottom: 30px;
 }
 
-.video h1 {
+.home .video h1 {
   position: relative;
   font-size: 2rem;
   font-weight: 100;
   font-style: normal;
 }
 
-.video h1 span {
+.home .video h1 span {
   font-weight: 300;
   font-style: italic;
 }
 
-.video h1:before {
+.home .video h1:before {
   content:url('../img/commons/figure-down.png'); /* with class ModalCarrot ??*/
   position: absolute;
   display: inline-block;
@@ -30,7 +30,7 @@
   transform: scale(0.5);
 }
 
-.video h1:after {
+.home .video h1:after {
   content:url('../img/commons/figure-up.png'); /* with class ModalCarrot ??*/
   position: absolute;
   display: inline-block;
@@ -39,18 +39,18 @@
   transform: scale(0.5);
 }
 
-.video .content {
+.home .video .content {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
 
-.video .content h1 {
+.home .video .content h1 {
 	color: white;
 }
 
-.video video {
+.home .video video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -65,12 +65,12 @@
   transform: translateX(-50%) translateY(-50%);
 }
 
-.video .container {
+.home .video .container {
   position: relative;
   z-index: 2;
 }
 
-.video .overlay {
+.home .video .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -81,7 +81,7 @@
   z-index: 1;
 }
 
-.video .overlay_inst {
+.home .video .overlay_inst {
   position: absolute;
   top: 0;
   left: 0;
@@ -94,14 +94,14 @@
 /* Video end */
 
 /* Datos */
-.datos h2 {
+.home .datos h2 {
 	color: var(--text-color);
 	font-size: 1.25rem;
 	text-align: center;
 	margin-bottom: 60px;
 }
 
-.datos p {
+.home .datos p {
 	margin-bottom: 30px;
 }
 /* Datos end */
@@ -208,17 +208,17 @@
 @media (min-width: 576px) {
 
 	/* Video */
-	.video h1 {
+	.home .video h1 {
 	  font-size: 3rem;
 	}
 	/* Video end */
 
 	/* Datos */
-	.datos h2 {
+	.home .datos h2 {
 		margin-bottom: 30px;
 	}
 
-	.datos p {
+	.home .datos p {
 		margin-bottom: 90px;
 	}
 	/* Datos end */
@@ -228,7 +228,7 @@
 @media (min-width: 768px) {
 
 	/* Datos */
-	.datos p {
+	.home .datos p {
 		font-size: 1.2rem;
 	}
 	/* Datos end */
@@ -268,14 +268,14 @@
 @media (min-width: 992px) {
 
 	/* Video */
-	.video h1 {
+	.home .video h1 {
 		margin-top: 80px;
 		font-size: 3.5rem;
 	}
 	/* Video end */
 
 	/* Datos */
-	.datos p {
+	.home .datos p {
 		font-size: 1.3rem;
 	}
 	/* Datos end */
