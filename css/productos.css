@@ -1,0 +1,327 @@
+/* Header */
+.productos .header {
+	background: url('../img/productos/header.jpg');
+	background-position: 15% 50%;
+	background-repeat: no-repeat;
+	height: 75vh;
+	margin-bottom: 30px;
+}
+
+.productos .header .col-md-12 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.productos .header h1 {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+  text-align: center;
+}
+
+.productos .header h1 span {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.productos .header h1:before {
+  content:url('../img/commons/figure-down.png');
+  position: absolute;
+  display: inline-block;
+  bottom: -50px;
+  left: -40px;
+  transform: scale(0.5);
+}
+
+.productos .header h1:after {
+  content:url('../img/commons/figure-up.png');
+  position: absolute;
+  display: inline-block;
+  top: -45px;
+  right: -40px;
+  transform: scale(0.5);
+}
+/* Header end */
+
+/* Modelos */
+.productos .modelos .ascensor {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.productos .modelos .ascensor h2 {
+	font-size: 3rem;
+	color: #d2d2d2;
+	font-weight: 700;
+	margin-bottom: -10px;
+}
+
+.productos .modelos .montavehiculos h2 {
+	font-size: 2.3rem;
+	margin-bottom: -8px;
+}
+
+.productos .modelos .ascensor .recuadro_gris {
+	background: #d2d2d2;
+	margin-bottom: 15px;
+	padding: 15px 0;
+}
+
+.productos .modelos .montavehiculos .recuadro_gris {
+	padding: 0;
+}
+
+.productos .modelos .ascensor .footer {
+	border-bottom: solid 1px var(--text-color);
+	padding-bottom: 30px;
+}
+
+.productos .modelos .ascensor:last-child .footer {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.productos .modelos .ascensor .footer h3 {
+	color: var(--text-color);
+	font-size: 1.25rem;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.productos .modelos .ascensor .footer p {
+	color: var(--text-color);
+	font-weight: 300;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.productos .modelos .ascensor .footer p span {
+	font-weight: 700;
+}
+
+.productos .modelos .ascensor .footer a {
+	background: transparent!important;
+	color: var(--secondary-color)!important;
+	border: solid 1px var(--secondary-color)!important;
+}
+
+.productos .modelos .ascensor .footer a:hover {
+	background: var(--secondary-color)!important;
+	color: white!important;
+}
+/* Modelos end */
+
+/* Faja Desarrollos Especiales */
+.productos .desarrollos_especiales {
+	background: url('../img/productos/faja-desarrollos-especiales.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 300px;
+	padding: 30px 0;
+}
+
+.productos .desarrollos_especiales .col-md-8 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.productos .desarrollos_especiales h5,
+.productos .desarrollos_especiales p {
+	color: white;
+	text-align: center;
+}
+
+.productos .desarrollos_especiales h5 {
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.productos .desarrollos_especiales p {
+	margin-bottom: 30px;
+}
+
+.productos .desarrollos_especiales a {
+	background: white!important;
+	color: var(--primary-color)!important;
+	border-color: transparent!important;
+}
+
+.productos .desarrollos_especiales a:hover {
+	background: var(--secondary-color)!important;
+	color: white!important;
+}
+/* Faja Desarrollos Especiales end */
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+	/* Header */
+	.productos .header h1 {
+	  font-size: 3rem;
+	}
+	/* Header end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Header */
+	.productos .header {
+	  margin-bottom: 60px;
+	}
+	/* Header end */
+
+	/* Productos */
+	.productos .modelos .ascensor h2 {
+		min-height: 60px;
+		margin-bottom: -12px;
+	}
+
+	.productos .modelos .montavehiculos h2 {
+		padding-top: 11px;
+	}
+
+	.productos .modelos .ascensor .recuadro_gris {
+		position: relative;
+		max-height: 330px;
+		min-height: 330px;
+		margin-bottom: 120px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+
+	.productos .modelos .ascensor .mark_left:before {
+		content:url('../img/commons/figure-down.png');
+	  position: absolute;
+	  display: inline-block;
+	  bottom: -50px;
+	  left: -40px;
+	  transform: scale(0.5);
+	}
+
+	.productos .modelos .ascensor .mark_right:after {
+		content:url('../img/commons/figure-down.png');
+	  position: absolute;
+	  display: inline-block;
+	  bottom: -45px;
+	  right: -40px;
+	  -webkit-transform: scaleX(-1) scale(0.5);
+  	transform: scaleX(-1) scale(0.5);
+	}
+
+	.productos .modelos .montavehiculos img {
+	  margin-top: 30px;
+	}
+
+	.productos .modelos .ascensor .footer p {
+		min-height: 270px;
+	}
+
+	.productos .modelos .ascensor .footer {
+		border: none;
+		padding-bottom: 0;
+	}
+	/* Productos end */
+
+	/* Faja Desarrollos Especiales */
+	.productos .desarrollos_especiales h5 {
+		font-size: 1.5rem;
+	}
+
+	.productos .desarrollos_especiales p {
+		font-size: 1.125rem;
+	}
+	/* Faja Desarrollos Especiales end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Header */
+	.productos .header h1 {
+		margin-top: 80px;
+	  font-size: 3.5rem;
+	}
+	/* Header end */
+
+	/* Productos */
+	.productos .modelos .montavehiculos h2 {
+		font-size: 3rem;
+		padding-top: 0;
+	}
+
+	.productos .modelos .ascensor .recuadro_gris {
+		max-height: 440px;
+		min-height: 440px;
+		margin-bottom: 150px;
+	}
+
+	.productos .modelos .ascensor:nth-child(0),
+	.productos .modelos .ascensor:nth-child(1) {
+		margin-bottom: 125px;
+	}
+
+	.productos .modelos .ascensor .footer h3 {
+		font-size: 1.5rem;
+	}
+
+	.productos .modelos .ascensor .footer p {
+		font-size: 1.25rem;
+		min-height: 310px;
+	}
+	/* Productos end */
+
+	/* Faja Desarrollos Especiales */
+	.productos .desarrollos_especiales h5 {
+		font-size: 1.75rem;
+	}
+
+	.productos .desarrollos_especiales p {
+		font-size: 1.25rem;
+	}
+	/* Faja Desarrollos Especiales end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Header */
+	.productos .header {
+	  margin-bottom: 100px;
+	}
+	/* Header end */
+
+	/* Productos */
+	.productos .modelos .ascensor .recuadro_gris {
+		padding-top: 30px;
+		max-height: 550px;
+		min-height: 550px;
+		margin-bottom: 170px;
+	}
+
+	.productos .modelos .ascensor .footer h3 {
+		margin-bottom: 20px;
+	}
+
+	.productos .modelos .ascensor .footer p {
+		min-height: 250px;
+	}
+	/* Productos end */
+
+}
+
+@media (min-width: 1600px) {
+
+}
+
+
+
+
+

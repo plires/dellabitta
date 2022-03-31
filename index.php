@@ -40,7 +40,7 @@
 		<section class="video">
 		  <div class="overlay"></div>
 		  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-		    <source src="videos/coverhill.mp4" type="video/mp4">
+		    <source src="videos/dellabitta.mp4" type="video/mp4">
 		  </video>
 		  <div class="container h-100">
 		    <div class="row h-100">
