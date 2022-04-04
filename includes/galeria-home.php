@@ -8,7 +8,7 @@
         alt="galeria cabina ascensor inoxihabit">
         <div class="footer">
           <h4>. CABINA DE ASCENSOR INOXHABIT</h4>
-          <a class="transition" href="#">VER MÁS</a>
+          <a class="transition" href="productos.php">VER MÁS</a>
         </div>
     </div>
   </div>
@@ -21,7 +21,7 @@
         alt="galeria cabina ascensor abril">
         <div class="footer">
           <h4>. CABINA DE ASCENSOR ABRIL</h4>
-          <a class="transition" href="#">VER MÁS</a>
+          <a class="transition" href="productos.php">VER MÁS</a>
         </div>
     </div>
   </div>
@@ -34,7 +34,7 @@
         alt="galeria cabina ascensor elisee">
         <div class="footer">
           <h4>. CABINA DE ASCENSOR ELISEE</h4>
-          <a class="transition" href="#">VER MÁS</a>
+          <a class="transition" href="productos.php">VER MÁS</a>
         </div>
     </div>
   </div>
@@ -47,7 +47,7 @@
         alt="galeria montavehiculos">
         <div class="footer">
           <h4>. MONTAVEHÍCULOS</h4>
-          <a class="transition" href="#">VER MÁS</a>
+          <a class="transition" href="productos.php">VER MÁS</a>
         </div>
     </div>
   </div>
@@ -60,7 +60,7 @@
         alt="galeria cabina ascensor desarrollos especiales">
         <div class="footer">
           <h4>. DESARROLLOS ESPECIALES</h4>
-          <a class="transition" href="#">VER MÁS</a>
+          <a class="transition" href="productos.php">VER MÁS</a>
         </div>
     </div>
   </div>

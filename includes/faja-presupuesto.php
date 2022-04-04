@@ -5,9 +5,9 @@
         <p>
           ¿Necesitás presupuesto? <br><span>contactate con nosotros</span>
         </p>
-        <button class="btn btn-primary">
+        <a href="contacto.php" class="btn btn-primary">
           CONTACTO
-        </button>
+        </a>
       </div>
     </div>
   </div>
