@@ -43,39 +43,48 @@
 	  }
 
 	  if (!isset($errors)) {
-	  	
+
 	  	//grabamos en la base de datos
-		  $save = $db->getRepoContacts()->saveInBDD($_POST);
+		  $save = $db->getRepoContacts()->saveContactFormContactInBDD($_POST);
 
 		  //Enviamos los mails al cliente y usuario
 		  $app = new App;
 
-		  // Registramos en Mailchimp el contacto
-		  // $app->registerEmailInMailchimp(API_KEY_MAILCHIMP, LIST_ID, $_POST);
+		  // Registramos en Perfit el contacto
+		  $app->registerEmailContactsInPerfit(API_KEY_PERFIT, LIST_PERFIT, $_POST);
 
-		  $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $_POST);
-		  $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $_POST);
+	  	//Enviamos los mails al cliente y usuario
+		  $sendEmails = $app->prepareEmailFormContacto($_POST);
 
-		  if ($sendClient) {
+		  if ($sendEmails) {
+
 		  	$msg_contacto = 'Mensaje recibido. Le contestaremos a la brevedad. Muchas gracias!';
-		    $url = explode("?",$_SERVER['HTTP_REFERER']);
 
-		    header("Location: " . $url[0] ."?msg_contacto=". urlencode($msg_contacto) . "#msg_contacto" );
-	  	exit;
+		    header("Location: " . BASE ."contacto.php?msg_contacto=". urlencode($msg_contacto) . "#msg_contacto" );
+	  		exit;
+
 		  } else {
-		    exit('Error al enviar la consulta, por favor intente nuevamente');
+
+		  	$errors['mail'] = 'Error al enviar la consulta, por favor intente nuevamente';
+		  	header("Location: " . BASE . "contacto.php?errors=" . urlencode(serialize($errors)) . "#error");
+		  	exit;
+
 		  }
 
 	  } else {
-	  	$phone = $_POST['phone'];
-	  	$city = $_POST['city'];
-	  	$url = explode("?",$_SERVER['HTTP_REFERER']);
 
-	  	header("Location: " . $url[0] . "?name=$name&email=$email&phone=$phone&city=$city&comments=$comments&errors=" . urlencode(serialize($errors)) . "#error");
+	  	$phone = $_POST['phone'];
+
+	  	header("Location: " . BASE . "contacto.php?name=$name&email=$email&phone=$phone&comments=$comments&errors=" . urlencode(serialize($errors)) . "#error");
 	  	exit;
+
 	  }
 	  
   } else {
-  	//Robot
+
+  	// Robot
+  	$errors['robot'] = 'Error. Por favor intente nuevamente';
+  	header("Location: " . BASE . "contacto.php?errors=" . urlencode(serialize($errors)) . "#error");
   	exit;
+
 	} 

@@ -32,42 +32,6 @@
 
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
-        /* cyrillic-ext */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 300;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gTD_vx3rCubqg.woff2) format('woff2');
-          unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-        }
-        /* cyrillic */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 300;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3g3D_vx3rCubqg.woff2) format('woff2');
-          unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-        }
-        /* vietnamese */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 300;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gbD_vx3rCubqg.woff2) format('woff2');
-          unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-        }
-        /* latin-ext */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 300;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gfD_vx3rCubqg.woff2) format('woff2');
-          unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
         /* latin */
         @font-face {
           font-family: 'Montserrat';
@@ -77,42 +41,7 @@
           src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gnD_vx3rCs.woff2) format('woff2');
           unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
         }
-        /* cyrillic-ext */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 400;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format('woff2');
-          unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-        }
-        /* cyrillic */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 400;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format('woff2');
-          unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-        }
-        /* vietnamese */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 400;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format('woff2');
-          unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-        }
-        /* latin-ext */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 400;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format('woff2');
-          unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
+        
         /* latin */
         @font-face {
           font-family: 'Montserrat';
@@ -122,42 +51,7 @@
           src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');
           unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
         }
-        /* cyrillic-ext */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 700;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gTD_vx3rCubqg.woff2) format('woff2');
-          unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-        }
-        /* cyrillic */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 700;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3g3D_vx3rCubqg.woff2) format('woff2');
-          unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-        }
-        /* vietnamese */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 700;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gbD_vx3rCubqg.woff2) format('woff2');
-          unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-        }
-        /* latin-ext */
-        @font-face {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 700;
-          font-display: swap;
-          src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gfD_vx3rCubqg.woff2) format('woff2');
-          unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
+        
         /* latin */
         @font-face {
           font-family: 'Montserrat';
@@ -169,7 +63,7 @@
         }
 
         /* Que hace: elimina espacios alrededor del dise&ntilde;o de correo electronico agregado por algunos clientes de correo electronico. */
-/* Cuidado: puede eliminar el relleno / margen y agregar un color de fondo para componer una ventana de respuesta. */
+        /* Cuidado: puede eliminar el relleno / margen y agregar un color de fondo para componer una ventana de respuesta. */
         html,
         body {
             margin: 0 auto !important;
@@ -254,7 +148,7 @@
     }
 
         /* Que hace: elimina el canal derecho de la aplicacion Gmail para iOS: https://github.com/TedGoas/Cerberus/issues/89 */
-        /* Cree una de estas consultas de medios para cada tama&ntilde;o de ventana adicional que desee corregir */
+        /* Cree una de estas consultas de medios para cada tama&ntilde;o de ventana adicional que desee corregir */
 
         /* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
         @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
@@ -302,8 +196,8 @@
       .button-td-primary:hover,
       .button-a-primary:hover {
           background: #fff5e3 !important;
-            border-color: #ffcb66 !important;
-          color: #ffcb66 !important;
+            border-color: #f09b28 !important;
+          color: #f09b28 !important;
       }
 
         .button-td-secondary:hover,
@@ -421,14 +315,14 @@
           <tr>
               <td style="vertical-align: middle;">
                   
-                  <img src="https://wgsa.com.ar/img/email/header.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
+                  <img src="https://dellabitta.com.ar/img/email/header.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
 
               </td>
           </tr>
           <!-- Header end-->
 
           <!-- Texto-->
-          <tr style="background-color: #ffcb66;">
+          <tr style="background-color: #f09b28;">
               <td style="padding: 10px; vertical-align: middle;">
                   
                   <h1 class="fallback-font" style="margin: 0px!important; font-family: 'Montserrat', sans-serif; font-size: 28px; color: #FFFFFF; text-align: center; font-weight: 700;">
@@ -458,23 +352,23 @@
                   </h3>
 
                   <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
-                      <strong>Nombre:</strong> {nombre_user}
+                      <strong>Nombre:</strong> {name_user}
                   </p>
 
                   <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
-                      <strong>Email:</strong> {email}
+                      <strong>Email:</strong> {email_user}
                   </p>
 
                   <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
-                      <strong>Tel&eacute;fono:</strong> {telefono}
+                      <strong>Tel&eacute;fono:</strong> {phone_user}
                   </p>
 
                   <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
-                      <strong>Mensaje: </strong> {comentarios}
+                      <strong>Mensaje: </strong> {comments_user}
                   </p>
 
                   <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
-                      <strong>Fecha:</strong> {fecha}
+                      <strong>Fecha:</strong> {date}
                   </p>
 
               </td>
@@ -482,8 +376,8 @@
           <!-- Texto end-->
 
           <!-- Boton : BEGIN -->
-          <tr style="background-color: #ffcb66;">
-              <td style="background-color: #ffcb66; text-align: center; padding: 40px;">
+          <tr style="background-color: #f09b28;">
+              <td style="background-color: #f09b28; text-align: center; padding: 40px;">
 
                 <p class="fallback-font" style="margin: 0 0 10px; margin-bottom: 20px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: center; font-weight: 400;">
                   <strong>¿Necesitas responder a este usuario?</strong>
@@ -492,7 +386,7 @@
                   <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
                       <tr>
                           <td class="button-td button-td-primary" style="border-radius: 4px; background: #FFFFFF;">
-                              <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="mailto:{email}" style="background: #FFFFFF; border: 1px solid #FFFFFF; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #ffcb66; display: block; border-radius: 4px;">RESPONDER
+                              <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="mailto:{email_user}" style="background: #FFFFFF; border: 1px solid #FFFFFF; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #f09b28; display: block; border-radius: 4px;">RESPONDER
                               </a>
                           </td>
                       </tr>
@@ -503,19 +397,23 @@
           <!-- Boton : END -->
 
           <!-- Footer : BEGIN -->
-          <tr align="center" style="background-color: #FFFFFF;">
-              <td align="center"  style="background-color: #FFFFFF;padding: 10px;">
+          <tr align="center" style="background-color: #000000;">
+              <td align="center"  style="background-color: #000000;padding: 10px;">
                 
                 <a target="_blank" rel="noopener noreferrer" href="{facebook}">
-                  <img src="https://wgsa.com.ar/img/email/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="facebook" />
+                  <img src="https://dellabitta.com.ar/img/email/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="facebook" />
                 </a>
 
                 <a target="_blank" rel="noopener noreferrer" href="{instagram}">
-                  <img src="https://wgsa.com.ar/img/email/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="instagram" />
+                  <img src="https://dellabitta.com.ar/img/email/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="instagram" />
                 </a>
 
-                <a target="_blank" rel="noopener noreferrer" href="{linkedin}">
-                  <img src="https://wgsa.com.ar/img/email/linkedin.png" style="margin:0; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="linkedin" />
+                <a 
+                  href="https://web.whatsapp.com/send?phone=+{whatsapp}&text=Hola%20Dellabitta,%20Necesito%20hacer%20una%20consulta...%20" 
+                  target="_blank" 
+                  rel="noopener"
+                  >
+                  <img src="https://dellabitta.com.ar/img/email/whatsapp.png" style="margin:0; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="whatsapp" />
                 </a>
                   
               </td>

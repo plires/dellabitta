@@ -29,13 +29,13 @@
 
   if (isset($_GET['errors'])) {
 
-    $errors = unserialize(urldecode($_GET['errors']));
+    $errors = unserialize( urldecode( $_GET['errors'] ) );
   } else {
-    $errors = [];
+    $errors = '';
   }
 
   if (isset($_GET['msg_contacto'])) {
-    $msg_contacto = urldecode($_GET['msg_contacto']);
+    $msg_contacto = urldecode( $_GET['msg_contacto'] );
   } 
 
 ?>
@@ -137,8 +137,10 @@
 
 	  		<div data-aos="fade-up" class="col-md-6 formulario">
 	  			
+	  			<h4>¿Tenés una consulta? <br><span>contactate con nosotros</span></h4>
+
 	  			<!-- Mensaje Exito -->
-		      <?php if (isset($msg_contacto)): ?>
+		      <?php if ( isset($msg_contacto) ): ?>
 		        <div id="msg_contacto" class="alert alert-success alert-dismissible fade show" role="alert">
 		          <strong>¡Datos recibidos!</strong>
 		          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -150,7 +152,7 @@
 		      <!-- Mensaje Exito end -->
 
 		      <!-- Errores Formulario -->
-		      <?php if ($errors): ?>
+		      <?php if ( is_array($errors) && isset($errors) ): ?>
 
 		        <div id="error" class="alert alert-danger alert-dismissible fade show" role="alert">
 		          <strong>¡Por favor verificá los datos!</strong>
@@ -165,11 +167,10 @@
 		      <?php endif ?>
 		      <!-- Errores Formulario end -->
 
-		      <h4>¿Tenés una consulta? <br><span>contactate con nosotros</span></h4>
-
 		      <form id="form-contacto" action="./php/validate-form.php" method="post" class="needs-validation" novalidate>
 
 		        <input name="origin" type="hidden" value="Formulario de Contacto">
+		        <input type="hidden" name="section" value="contacto">
 
 		        <!-- Nombre -->
 		        <div data-aos="fade-up" class="mb-3">
