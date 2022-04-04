@@ -96,7 +96,7 @@
 			  			<div class="content">
 				  			<h3>Dirección</h3>
 			  				<a href="https://goo.gl/maps/2dtvMU1ctmxiMMoy5" rel="noopener" target="_blank">
-			  					Héroes de Malvinas 3789 (1826) Remedios de Escalada Pcia. de Buenos Aires . Argentina.
+			  					Héroes de Malvinas 3789 (1826) <br>Remedios de Escalada Pcia. de Buenos Aires . Argentina.
 			  				</a>
 			  			</div>
 

@@ -7,7 +7,7 @@
       <div class="datos col-md-6">
         <img class="img-fluid logo_footer" src="img/footer/logo-dellabitta-footer.png" alt="logo ascensores dellabitta footer">
         <div class="info">
-          <a class="transition" rel="noopener" target="_blank" href="#">
+          <a class="transition" rel="noopener" target="_blank" href="https://goo.gl/maps/2dtvMU1ctmxiMMoy5">
             Héroes de Malvinas 3789 <br>
             (1826) Remedios de Escalada <br>
             Pcia. de Buenos Aires. Argentina
