@@ -22,10 +22,10 @@
       <!-- Navegacion -->
       <div class="navegacion col-md-6">
         <ul>
-          <li><a class="transition" href="#">EMPRESA</a></li>
-          <li><a class="transition" href="#">PRODUCTOS</a></li>
-          <li><a class="transition" href="#">DESARROLLOS ESPECIALES</a></li>
-          <li><a class="transition" href="#">CONTACTO</a></li>
+          <li><a class="transition" href="empresa.php">EMPRESA</a></li>
+          <li><a class="transition" href="productos.php">PRODUCTOS</a></li>
+          <li><a class="transition" href="contacto.php">DESARROLLOS ESPECIALES</a></li>
+          <li><a class="transition" href="contacto.php">CONTACTO</a></li>
         </ul>
       </div>
       <!-- Navegacion -->
