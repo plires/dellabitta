@@ -1,0 +1,252 @@
+/* Header */
+.contacto .header {
+	background: url('../img/contacto/header-contacto.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 50vh;
+}
+
+.contacto .header .col-md-12 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacto .header h1 {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+  text-align: center;
+}
+
+.contacto .header h1 span {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.contacto .header h1:before {
+  content:url('../img/commons/figure-down.png');
+  position: absolute;
+  display: inline-block;
+  bottom: -50px;
+  left: -40px;
+  transform: scale(0.5);
+}
+
+.contacto .header h1:after {
+  content:url('../img/commons/figure-up.png');
+  position: absolute;
+  display: inline-block;
+  top: -45px;
+  right: -40px;
+  transform: scale(0.5);
+}
+/* Header end */
+
+/* Información */
+.contacto .datos {
+	background: #eeeeee;
+	padding: 20px 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contacto .grey {
+	background: #eeeeee;
+}
+
+.contacto .info {
+	margin-bottom: 20px;
+}
+
+.contacto .datos .content {
+	margin-bottom: 20px;
+}
+
+.contacto .datos .content:last-child {
+	margin-bottom: 0;
+}
+
+.contacto .datos h3 {
+	color: var(--text-color);
+	font-size: 1.125rem;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.contacto .datos a {
+	color: var(--text-color);
+	font-weight: 300;
+}
+
+.contacto .mapa {
+	margin-bottom: 30px;
+}
+
+.contacto .mapa iframe {
+	height: 300px;
+}
+/* Información end */
+
+/* Formulario */
+.contacto .formulario {
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.contacto .formulario h4 {
+	text-align: center;
+	font-weight: 100;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+.contacto .formulario h4 span {
+	font-weight: 300;
+}
+
+.contacto .mapa {
+	background-color: white;
+	padding-top: 20px;
+	margin-bottom: 0;
+}
+
+.contacto .formulario input,
+.contacto .formulario textarea {
+	border-radius: 0!important;
+	border-color: transparent!important;
+	border-bottom: 1px solid #706f6f!important;
+}
+
+.contacto .formulario textarea {
+	resize: none;
+}
+
+.contacto .formulario #send {
+	background-color: transparent!important;
+	border-color: #706f6f!important;
+	color: #706f6f!important;
+	font-weight: 300;
+}
+
+.contacto .formulario #send:hover {
+	background-color: #706f6f!important;
+	color: white!important;
+}
+/* Formulario end */
+
+/* Imagenes */
+.contacto .imagenes {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Imagenes end */
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+	/* Header */
+	.contacto .header h1 {
+	  font-size: 3rem;
+	}
+	/* Header end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Información */
+	.contacto .info {
+		margin-bottom: 50px;
+	}
+
+	.contacto .datos {
+		margin-bottom: 0;
+	}
+
+	.contacto .mapa {
+		padding-top: 0;
+		padding-right: 0;
+	}
+	/* Información end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Header */
+	.contacto .header h1 {
+		margin-top: 80px;
+	  font-size: 3.5rem;
+	}
+	/* Header end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Header */
+	.contacto .header {
+	  margin-bottom: 50px;
+		height: 75vh;
+	}
+	/* Header end */
+
+	/* Información */
+	.contacto .info {
+		height: 500px;
+	}
+
+	.contacto .mapa iframe {
+		height: 500px;
+	}
+
+	.contacto .datos h3 {
+		font-size: 1.5rem;
+	}
+
+	.contacto .datos a {
+		font-size: 1.125rem;
+	}
+
+	.contacto .datos .content {
+		margin-bottom: 30px;
+	}
+	/* Información end */
+
+	/* Formulario */
+	.contacto .content_form {
+		margin-bottom: 60px;
+	}
+
+	.contacto .formulario h4 {
+		font-size: 1.75rem;
+		margin-bottom: 60px;
+	}
+	/* Formulario end */
+
+	/* Imagenes */
+	.contacto .imagenes {
+		align-items: flex-end;
+	}
+	/* Imagenes end */
+
+
+
+}
+
+@media (min-width: 1600px) {
+
+}
+
+
+
+
+
