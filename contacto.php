@@ -206,7 +206,11 @@
 		        </div>
 
 		        <div data-aos="fade-up" class="text-end">
-	         		<button type="button" id="send" class="btn btn-primary">ENVIAR</button>
+	         		<button type="button" id="send" class="btn btn-primary">ENVIAR
+	         			<div id="wait" class="spinner-border spinner-border-sm text-warning" role="status">
+								  <span class="visually-hidden">Loading...</span>
+								</div>
+	         		</button>
 		        </div>
 
 		      </form>

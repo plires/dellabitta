@@ -2,6 +2,8 @@ $(document).ready(function() {
 
   $('#send').click(function() {
 
+    var btn = document.getElementById('wait');
+    
     var errorsInFieldsFront = false
 
     // Validacion del Formulario
@@ -13,6 +15,7 @@ $(document).ready(function() {
       event.stopPropagation();
       errorsInFieldsFront = true
     }
+
     form.classList.add('was-validated');
 
     if (!errorsInFieldsFront) {
@@ -22,10 +25,12 @@ $(document).ready(function() {
           }).then(function(token) {
           $('#form-contacto').prepend('<input type="hidden" name="token" value="' + token + '" >');
           $('#form-contacto').prepend('<input type="hidden" name="action" value="validarFormulario" >');
+          btn.classList.add('active');
           $('#form-contacto').submit();
         });
       });
     } 
 
   });
+
 });

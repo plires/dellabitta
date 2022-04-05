@@ -132,6 +132,14 @@
 	font-weight: 300;
 }
 
+.contacto .formulario #wait {
+	display: none;
+}
+
+.contacto .formulario #wait.active {
+	display: inline-block;
+}
+
 .contacto .formulario #send:hover {
 	background-color: #706f6f!important;
 	color: white!important;
