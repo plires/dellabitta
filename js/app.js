@@ -100,4 +100,10 @@ function verifyRecaptcha(formName = null, key = null, action = null) {
   
 }
 
+if ( window.scrollY > 200) {
+  showlHeader()
+} else {
+  hidelHeader()
+}
+
 AOS.init();
