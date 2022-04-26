@@ -104,21 +104,21 @@
 	      	</p>
 	      </div>
 	      <div data-aos="fade-up" class="col-md-4">
-	      	<img class="img-fluid" src="img/home/tipo-ascensor.jpg" alt="sistema ascensor hidraulico">
+	      	<img class="img-fluid" src="img/home/sistema-hidraulico.png" alt="sistema ascensor hidraulico">
 	      	<h3>ASCENSORES <br>HIDRÁULICOS</h3>
 	      	<p>
 	      		Este tipo de ascensor es ideal para su instalación en proyectos de pocas paradas. Por sus características este tipo de elevador cubre una amplia gama de necesidades que abarca shoppings, aeropuertos, edificios públicos o de viviendas, hoteles y domicilios particulares.
 	      	</p>
 	      </div>
 	      <div data-aos="fade-up" class="col-md-4">
-	      	<img class="img-fluid" src="img/home/tipo-ascensor.jpg" alt="sistema ascensor hidraulico">
+	      	<img class="img-fluid" src="img/home/sistema-electromecanico.png" alt="sistema ascensor electromecanico">
 	      	<h3>ASCENSORES <br>ELECTROMECÁNICOS</h3>
 	      	<p>
 	      		Sistema de tracción por adherencia y equipos de tracción directa. Capacidad de carga flexible según las necesidades de cada proyecto. Sin límite de pisos y mayor rango de velocidades. Instalados con variador de frecuencia. Excelente nivelación y gran confort durante traslados. Economía de energía. Mayor vida útil de los componentes del ascensor. Preparados para edificios de gran altura
 	      	</p>
 	      </div>
 	      <div data-aos="fade-up" class="col-md-4">
-	      	<img class="img-fluid" src="img/home/tipo-ascensor.jpg" alt="sistema ascensor hidraulico">
+	      	<img class="img-fluid" src="img/home/sistema-montacarga.png" alt="sistema ascensor montacargas">
 	      	<h3>MONTAVEHÍCULOS</h3>
 	      	<p>
 	      		Su practicidad los convierten en una solución ideal para obtener un mayor espacio útil asignado al estacionamiento. Los montavehículos permiten el acceso a diferentes niveles con mucha simplicidad.

@@ -3,6 +3,7 @@
 /node_modules
 .phpintel
 /vendor
+/videos
 /img
 /includes/config.inc.php
 **/.DS_Store into
