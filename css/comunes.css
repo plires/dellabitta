@@ -106,6 +106,7 @@ input:focus-visible {
   background: url('../img/home/fondo-cabina-ascensor.jpg');
   background-position: 65% 50%;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 300px;
 }
 

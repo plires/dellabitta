@@ -69,7 +69,7 @@
 						</p>
 
 						<p data-aos="fade-up">
-							Ofrecemos no solo ascensores electromecánicos, sino que también tenemos en disponibilidad ascensores hidráulicos con centrales y pistones MORIS, marca líder Italiana.
+							Ofrecemos no solo ascensores electromecánicos, sino que también tenemos en disponibilidad ascensores hidráulicos.
 		        </p>
 			  	</div>
 
