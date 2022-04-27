@@ -317,7 +317,7 @@
           <tr>
               <td style="vertical-align: middle;">
                   
-                  <img src="https://dellabitta.com.ar/img/email/header.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
+                  <img src="https://dellabitta.com.ar/img/emails/header.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
 
               </td>
           </tr>
@@ -399,7 +399,7 @@
           <!-- Boton : END -->
 
           <!-- Footer : BEGIN -->
-          <tr align="center" style="background-color: #000000;">
+          <!-- <tr align="center" style="background-color: #000000;">
               <td align="center"  style="background-color: #000000;padding: 10px;">
                 
                 <a target="_blank" rel="noopener noreferrer" href="{facebook}">
@@ -419,7 +419,7 @@
                 </a>
                   
               </td>
-          </tr>
+          </tr> -->
           <!-- Footer : END -->
 
         </table>

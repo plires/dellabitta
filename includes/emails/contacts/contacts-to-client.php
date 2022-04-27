@@ -315,7 +315,7 @@
           <tr>
               <td style="vertical-align: middle;">
                   
-                  <img src="https://dellabitta.com.ar/img/email/header.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
+                  <img src="https://dellabitta.com.ar/img/emails/header.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
 
               </td>
           </tr>
@@ -397,15 +397,15 @@
           <!-- Boton : END -->
 
           <!-- Footer : BEGIN -->
-          <tr align="center" style="background-color: #000000;">
+          <!-- <tr align="center" style="background-color: #000000;">
               <td align="center"  style="background-color: #000000;padding: 10px;">
                 
                 <a target="_blank" rel="noopener noreferrer" href="{facebook}">
-                  <img src="https://dellabitta.com.ar/img/email/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="facebook" />
+                  <img src="https://dellabitta.com.ar/img/emails/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="facebook" />
                 </a>
 
                 <a target="_blank" rel="noopener noreferrer" href="{instagram}">
-                  <img src="https://dellabitta.com.ar/img/email/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="instagram" />
+                  <img src="https://dellabitta.com.ar/img/emails/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="instagram" />
                 </a>
 
                 <a 
@@ -413,11 +413,11 @@
                   target="_blank" 
                   rel="noopener"
                   >
-                  <img src="https://dellabitta.com.ar/img/email/whatsapp.png" style="margin:0; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="whatsapp" />
+                  <img src="https://dellabitta.com.ar/img/emails/whatsapp.png" style="margin:0; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="whatsapp" />
                 </a>
                   
               </td>
-          </tr>
+          </tr> -->
           <!-- Footer : END -->
 
         </table>
