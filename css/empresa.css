@@ -3,6 +3,7 @@
 	background: url('../img/empresa/header.jpg');
 	background-position: 79% 50%;
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 75vh;
 	margin-bottom: 30px;
 }

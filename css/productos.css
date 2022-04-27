@@ -3,6 +3,7 @@
 	background: url('../img/productos/header.jpg');
 	background-position: 15% 50%;
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 75vh;
 	margin-bottom: 30px;
 }
@@ -120,6 +121,7 @@
 	background: url('../img/productos/faja-desarrollos-especiales.jpg');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 300px;
 	padding: 30px 0;
 }
