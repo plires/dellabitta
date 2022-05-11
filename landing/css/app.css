@@ -1,0 +1,312 @@
+body { font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 16px; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+ul { list-style: none; }
+
+.transition{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+}
+
+.banda { background-color: #fdd916; height: 5px; width: 100%; }
+
+/* Header */
+header { background-color: white; height: 115px; }
+header .container { display: flex; justify-content: space-between; align-items: center; height: 100%; padding: 0 50px; }
+header span { font-size: 1.5rem; font-weight: 200; }
+/* Header end */
+
+/* Contacto */
+.contacto { background-image: url('../img/cabina-ascensor-header.jpg'); background-repeat: no-repeat; background-size: cover;
+  background-position: 50% 50%; margin-bottom: 20px; height: 790px; }
+.contacto .overlay { position: absolute; background-color: #00000066; width: 100%!important; min-height: 790px; }
+.contacto h1,
+.contacto p { color: white; }
+.contacto h1 { font-size: 3.425rem; font-weight: 700; margin-bottom: 50px; }
+.contacto p { font-size: 1.5rem; }
+.contacto .col-md-6 { display: flex; justify-content: center; align-items: center; }
+.contacto .col-md-6:first-child { flex-direction: column; text-align: right; align-items: flex-end; }
+.contacto form { width: 460px; background-color: #FFFFFFE6; border-radius: 10px; padding: 30px; }
+.contacto form span { display: inline-block; text-align: center; background-color: #faa627; color: white; 
+  font-size: 1.875rem; font-weight: 700; width: 100%; padding: 15px 0; margin-bottom: 25px;  }
+.contacto form textarea { resize: none; }
+.contacto form .btn-primary { background-color: #6d6f71; width: 100%; border:none; font-size: 1.5rem; }
+.contacto form .form-check-label { color: #b4b4b4; font-size: 0.85rem; }
+.contacto form .g-recaptcha { margin: 10px auto; display: table; }
+.contacto .banda_inferior { background-color: #faa627; width: 100%; height: 10px; }
+/* Contacto end */
+
+/* Gracias */
+.gracias .col-md-12 { display: flex; justify-content: center; align-items: center; }
+.gracias a { color: white; }
+.gracias .btn-primary { background-color: #faa627; color: white; border: none; }
+.gracias .btn-primary:hover { background-color: white; color: #faa627; }
+/* Gracias end*/
+
+/* Cabinas */
+.cabinas .cta,
+.cabinas_custom .cta { background-color: #676868; padding: 30px 0; margin-bottom: 10px; }
+.cabinas .cta h2,
+.cabinas_custom .cta h2 { font-size: 2.5rem; font-weight: 200; color: white; margin: 0; }
+.cabinas .titulo { background-color: #faa627; padding: 10px 0; margin-bottom: 40px; }
+.cabinas .titulo h3 { font-size: 1.875rem; font-weight: 700; color: white; margin: 0; }
+.cabinas .imagen_principal,
+.cabinas_custom .imagen_principal { margin-bottom: 30px; }
+.cabinas .datos { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.cabinas .datos img { margin-top: 50px; }
+.cabinas .datos h3 { font-size: 1.25rem; font-weight: 700; text-align: center; text-transform: uppercase; margin-bottom: 30px; }
+.cabinas .datos p { font-size: 1.125rem; }
+/* Cabinas end */
+
+/* Cabinas Custom */
+.cabinas_custom .cta,
+.cabinas_custom { margin-bottom: 60px; }
+.cabinas_custom .col-md-6 { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.cabinas_custom h3 { background-color: #faa627; text-align: center; margin: 0; margin-bottom: 30px;
+  font-size: 1.875rem; width: 100%; height: 50px; padding: 5px; color: white; }
+.cabinas_custom p { font-size: 1.125rem; margin-bottom: 60px; }
+.cabinas_custom .col-md-6 div:last-child p:last-child { margin: 0; }
+/* Cabinas Custom end */
+
+/* CTA Final */
+.cta_final .faja { background-color: #faa627; color: white; font-weight: 500; font-size: 1.5rem; text-transform: uppercase;
+  text-align: center; padding: 25px 0; }
+/* CTA Final end */
+
+/* Btn CTA Final */
+.cta_final .cta_btn .btn-primary { background-color: black; color: #faa627; font-size: 1.875rem; font-weight: 700;
+  text-transform: uppercase; border: none; padding: 10px 30px; margin: 30px 0; }
+.cta_final .cta_btn .btn-primary:hover { color: white; }
+/* Btn CTA Final end */
+
+/* Footer */
+footer { background-color: black; width: 100%; padding: 30px 0; }
+footer h4,
+footer p,
+footer a,
+footer span { color: #c8c8c8; }
+footer h4 { font-size: 1rem; font-weight: 700; margin-top: 15px; }
+footer p,
+footer a { font-size: 0.85rem; margin: 0; }
+footer a:hover { color: white; }
+footer .col-md-6:first-child { display: flex; align-items: center; }
+footer .col-md-6:first-child img { max-width: 15%; margin-right: 15px; }
+footer .contactos { flex-direction: column; align-items: center; justify-content: center; }
+footer .logos { display: flex; align-items: center; justify-content: center; }
+footer .logos span { margin: 0 10px; }
+/* Footer end */
+
+/* MEDIA QUERIS */
+
+/* Dispositivos extra pequeños (teléfonos de retrato, menos de 576px) */
+@media (max-width: 575.98px) {
+
+  /* Header */
+  header { height: 85px; }
+  header img { margin: auto; max-width: 80%!important; }
+  header span { display: none; }
+  /* Header end */
+
+  /* Contacto */
+  .contacto { background-size: cover; background-position: 53% 50%; height: 790px; margin-bottom: 20px; }
+  .contacto .overlay { min-height: 790px; }
+  .contacto h1 { font-size: 2rem; text-align: center; margin-bottom: 30px; }
+  .contacto h1 br,
+  .contacto p br { display: none; }
+  .contacto p { font-size: 1.125rem; text-align: center; }
+  .contacto .col-md-6 { justify-content: flex-start; padding-top: 60px; }
+  .contacto form { width: 100%; margin: auto; margin-top: -400px; box-shadow: 0 0 8px 0 #00000066; }
+  .contacto form input::placeholder, 
+  .contacto form textarea::placeholder { font-size: 0.85rem; }
+  .contacto form span { font-size: 1.125rem; padding: 8px 0; }
+  .contacto form .btn-primary { font-size: 1.125rem; }
+  .contacto form .g-recaptcha {
+    -webkit-transform: scale(0.78);
+    -moz-transform:    scale(0.78);
+    -ms-transform:     scale(0.78);
+    -o-transform:      scale(0.78);
+    transform:         scale(0.78);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    position: relative;
+    left: 5%;
+  }
+  /* Contacto end */
+
+  /* Cabinas */
+  .cabinas .cta,
+  .cabinas_custom .cta { padding: 15px 0; margin-top: 260px; }
+  .cabinas .cta h2,
+  .cabinas_custom .cta h2 { font-size: 1.25rem; }
+  .cabinas .titulo { padding: 8px 0; }
+  .cabinas .titulo h3 { font-size: 1.1125rem; text-align: center; }
+  .cabinas .descripcion .row { display: flex; justify-content: center; align-items: center; }
+  .cabinas .imagen_principal { margin: 0; max-width: 70%; margin-bottom: 60px; }
+  .cabinas .elisee { display: flex; justify-content: center; order: 0; }
+  .cabinas .datos { order: 1; }
+  .cabinas .datos img { margin: 30px 0; }
+  .cabinas .datos h3 { font-size: 1.1125rem; margin-bottom: 15px; }
+  .cabinas .datos p { font-size: 1rem; }
+  /* Cabinas end */
+
+  /* Cabinas Custom */
+  .cabinas_custom .cta { margin: 0; margin-bottom: 30px; }
+  .cabinas_custom .imagen_principal { max-width: 75%; }
+  .cabinas_custom h3 { margin-bottom: 15px; font-size: 1.125rem; height: auto; }
+  .cabinas_custom p { font-size: 1rem; margin-bottom: 30px; }
+  /* Cabinas Custom end */
+
+  /* CTA Final */
+  .cta_final .faja { font-size: 1.125rem; padding: 15px 0; }
+  /* CTA Final end */
+
+  /* Btn CTA Final */
+  .cta_final .cta_btn .btn-primary { font-size: 1.125rem; }
+  /* Btn CTA Final end */
+
+  /* Footer */
+  footer .col-md-6:first-child { display: flex; justify-content: center; align-items: center; margin-bottom: 15px; }
+  footer .col-md-6:first-child img { max-width: 15%; margin-right: 15px; }
+  footer .contactos { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+  footer .contactos a,
+  footer .contactos p { display: inline-block; margin-bottom: 10px; }
+  footer .col-md-6:last-child .row { display: flex; justify-content: space-around; align-items: flex-end; }
+  footer .logos img { max-width: 17%; }
+  footer h4 { font-size: 0.85rem; margin: 0; }
+  footer p,
+  footer a { font-size: 0.75rem; margin: 0; }
+  footer .logos { display: flex; justify-content: center; align-items: center; }
+  footer .logos span { margin: 0 10px; }
+  /* Footer end */
+
+}
+
+/* Dispositivos pequeños (teléfonos apaisados, 576px y más) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Header */
+  header { height: 85px; }
+  header img { margin: auto; max-width: 80%!important; }
+  header span { display: none; }
+  /* Header end */
+
+  /* Contacto */
+  .contacto { background-size: cover; background-position: 53% 50%; height: 790px; margin-bottom: 20px; }
+  .contacto .overlay { min-height: 790px; }
+  .contacto h1 { font-size: 2rem; text-align: center; margin-bottom: 30px; }
+  .contacto h1 br,
+  .contacto p br { display: none; }
+  .contacto p { font-size: 1.125rem; text-align: center; }
+  .contacto .col-md-6 { justify-content: flex-start; padding-top: 60px; }
+  .contacto form { width: 85%; margin: auto; margin-top: -500px; box-shadow: 0 0 8px 0 #00000066; }
+  .contacto form span { font-size: 1.375rem; padding: 8px 0; }
+  .contacto form .btn-primary { font-size: 1.125rem; }
+  /* Contacto end */
+
+  /* Cabinas */
+  .cabinas .cta,
+  .cabinas_custom .cta { padding: 15px 0; margin-top: 180px; }
+  .cabinas .cta h2,
+  .cabinas_custom .cta h2 { font-size: 1.5rem; }
+  .cabinas .titulo { padding: 8px 0; }
+  .cabinas .titulo h3 { font-size: 1.125rem; text-align: center; }
+  .cabinas .descripcion .row { display: flex; justify-content: center; align-items: center; }
+  .cabinas .imagen_principal { margin: 0; max-width: 70%; margin-bottom: 60px; }
+  .cabinas .elisee { display: flex; justify-content: center; order: 0; }
+  .cabinas .datos { order: 1; }
+  .cabinas .datos img { margin: 30px 0; }
+  .cabinas .datos h3 { font-size: 1.125rem; margin-bottom: 15px; }
+  .cabinas .datos p { font-size: 1rem; }
+  /* Cabinas end */
+
+  /* Cabinas Custom */
+  .cabinas_custom .cta { margin: 0; margin-bottom: 30px; }
+  .cabinas_custom .imagen_principal { max-width: 75%; }
+  .cabinas_custom h3 { margin-bottom: 15px; font-size: 1.25rem; height: auto; }
+  .cabinas_custom p { font-size: 1rem; margin-bottom: 30px; }
+  /* Cabinas Custom end */
+
+  /* CTA Final */
+  .cta_final .faja { font-size: 1.25rem; padding: 15px 0; }
+  /* CTA Final end */
+
+  /* Btn CTA Final */
+  .cta_final .cta_btn .btn-primary { font-size: 1.25rem; }
+  /* Btn CTA Final end */
+
+  /* Footer */
+  footer .col-md-6:first-child { display: flex; justify-content: center; align-items: center; margin-bottom: 15px; }
+  footer .contactos { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+  footer .col-md-6:last-child .row { display: flex; justify-content: space-around; align-items: flex-end; }
+  footer img { max-width: 10%!important; }
+  footer h4 { font-size: 0.85rem; margin: 0; }
+  footer p,
+  footer a { font-size: 0.75rem; margin: 0; }
+  footer .logos { display: flex; justify-content: center; align-items: center; }
+  footer .logos span { margin: 0 10px; }
+  /* Footer end */
+
+}
+
+/* Dispositivos medianos (tabletas, 768px y más) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Contacto */
+  .contacto h1 { font-size: 2.5rem; }
+  .contacto p { font-size: 1.25rem; }
+  .contacto form span { font-size: 1.5rem; }
+  .contacto form .btn-primary { font-size: 1.25rem; }
+  /* Contacto end*/
+
+  /* Cabinas */
+  .cabinas .cta h2,
+  .cabinas_custom .cta h2 { font-size: 2rem; }
+  .cabinas .titulo h3 { font-size: 1.375rem; }
+  .cabinas .descripcion .row { display: flex; justify-content: center; align-items: center; }
+  .cabinas .imagen_principal { margin: 0; }
+  .cabinas .datos img { margin: 30px 0; }
+  .cabinas .datos h3 { font-size: 1.125rem; }
+  .cabinas .datos p { font-size: 1rem; }
+  /* Cabinas end */
+
+  /* Cabinas Custom */
+  .cabinas_custom .cta,
+  .cabinas_custom { margin-bottom: 30px; }
+  .cabinas_custom h3 { margin-bottom: 15px; font-size: 1.375rem; height: auto; }
+  .cabinas_custom p { font-size: 1rem; margin-bottom: 30px; }
+  /* Cabinas Custom end */
+
+  /* CTA Final */
+  .cta_final .faja { font-size: 1.125rem; padding: 15px 0; }
+  /* CTA Final end */
+
+  /* Btn CTA Final */
+  .cta_final .cta_btn .btn-primary { font-size: 1.375rem; }
+  /* Btn CTA Final end */
+
+  /* Footer */
+  footer { padding: 20px 0; }
+  footer h4 { font-size: 0.85rem; }
+  footer p,
+  footer a { font-size: 0.75rem; margin: 0; }
+  footer .col-md-6:last-child .row .col-md-6{ height: 100%; }
+  footer .col-md-6:last-child .row .col-md-6 span { display: none; }
+  footer .col-md-6:last-child .row .col-md-6 img { margin-bottom: 10px; max-width: 50%; }
+  footer .col-md-6:last-child .row .col-md-6 { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; }
+  /* Footer end */
+  
+}
+
+/* Dispositivos grandes (escritorios, 992px y más) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  /* Footer */
+  footer .col-md-6:last-child .row .col-md-6{ height: 100%; }
+  footer .col-md-6:last-child .row .col-md-6 span { display: none; }
+  footer .col-md-6:last-child .row .col-md-6 img { margin-bottom: 10px; max-width: 50%; }
+  footer .col-md-6:last-child .row .col-md-6 { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; }
+  /* Footer end */
+}
+
+

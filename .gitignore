@@ -1,6 +1,10 @@
 /.phpintel
 /phpintel
 /node_modules
+/landing/includes/config.inc.php
+/landing/img
+/landing/node_modules
+/landing/vendor
 .phpintel
 /vendor
 /videos
