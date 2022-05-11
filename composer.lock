@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ea1fe5c90878f4680f4a8c70e219743",
+    "content-hash": "13993b2817b78c7e6b1e7ac78c7049af",
     "packages": [
         {
             "name": "perfitdev/sdkphp",

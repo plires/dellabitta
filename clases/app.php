@@ -3,6 +3,7 @@
 require_once( __DIR__ . '/../vendor/autoload.php' );
 
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
   class App 
@@ -19,50 +20,51 @@ use PHPMailer\PHPMailer\Exception;
 
       } else {
 
-        // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
-        // $mail->SMTPDebug = 4;
-        $mail->isSMTP();
-        $mail->Host       = SMTP;
-        $mail->SMTPAuth   = true; 
-        $mail->Username   = USERNAME; 
-        $mail->Password   = PASSWORD; 
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;  
+        //Server settings
+        // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                   //Enable verbose debug output
+        $mail->isSMTP();                                            //Send using SMTP
+        $mail->Host       = SMTP;                                   //Set the SMTP server to send through
+        $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+        $mail->Username   = USERNAME;                               //SMTP username
+        $mail->Password   = PASSWORD;                               //SMTP password
         $mail->Port       = EMAIL_PORT;
-        $mail->CharSet    = EMAIL_CHARSET;
+        $mail->CharSet = EMAIL_CHARSET;
+
         $mail->SMTPOptions = array(
-            'ssl' => array(
-                'verify_peer' => false,
-                'verify_peer_name' => false,
-                'allow_self_signed' => true
-            )
+          'ssl' => array(
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => true
+          )
         );
 
       }
 
-      //Establecer desde donde será enviado el correo electronico
-      $mail->setFrom($setFromEmail, $setFromName);
-      //Establecer una direccion de correo electronico alternativa para responder
-      $mail->addReplyTo($addReplyToEmail, $addReplyToName);
-      //Establecer a quien será enviado el correo electronico
-      $mail->addAddress($addAddressEmail, $addAddressName);
-      //Establecer el asunto del mensaje
-      $mail->Subject = $subject;
-      //convertir HTML dentro del cuerpo del mensaje
-      $mail->msgHTML($template);
-        //send the message, check for errors
-      if (!$mail->send()) {
-        return false;
-      } else {
-        return true;
-      }
+      // ENVIOS
+      $mail->From = $addAddressEmail; // Email desde donde envío el correo.
+      $mail->FromName = $setFromName; // Nombre para mostrar en el envío del correo.
+      $mail->AddAddress($addAddressEmail); // Esta es la dirección a donde enviamos los datos del formulario
+      $mail->AddReplyTo($addReplyToEmail); // Responder a:
 
+      // CONTENIDO
+      $mail->isHTML(true);
+      $mail->Subject = $subject; // Este es el asunto del email.
+      $mail->Body = $template; // Texto del email en formato HTML
+      
+      // Copia oculta
+      // if (EMAIL_BCC != '') { // si no esta vacio el campo BCC
+      //   $mail->addBCC(EMAIL_BCC, $subject); // Copia del email
+      // }
+
+      //send the message, check for errors
+      $send = $mail->send();
+
+      return $send;
+      
     }
 
-    function prepareEmailFormContacto($post) {
+    function prepareEmailFormContacto($post, $to) {
 
-      $template_user = file_get_contents( __DIR__ . '/../includes/emails/contacts/contacts-to-user.php');
-      $template_client = file_get_contents( __DIR__ . '/../includes/emails/contacts/contacts-to-client.php');
-      
       //configuro las variables a remplazar en el template
       $vars = array(
         '{facebook}',
@@ -98,35 +100,26 @@ use PHPMailer\PHPMailer\Exception;
         BASE 
       );
 
+      switch ($to) {
+
+        case 'to_client':
+          $template = file_get_contents( __DIR__ . '/../includes/emails/contacts/contacts-to-client.php');
+          break;
+
+        case 'to_user':
+          $template = file_get_contents( __DIR__ . '/../includes/emails/contacts/contacts-to-user.php');
+          break;
+        
+        default:
+          $template = file_get_contents( __DIR__ . '/../includes/emails/contacts/contacts-to-client.php');
+          break;
+
+      }
+
       //Remplazamos las variables por las marcas en los templates
-      $template_user = str_replace($vars, $values, $template_user);
-      $template_client = str_replace($vars, $values, $template_client);
+      $template_final = str_replace($vars, $values, $template);
 
-      // Enviar mail al usuario
-      $send = $this->sendmail(
-        EMAIL_CLIENT, // Remitente 
-        NAME_CLIENT, // Nombre Remitente 
-        EMAIL_CLIENT, // Responder a:
-        NAME_CLIENT, // Remitente al nombre: 
-        $post['email'], // Destinatario 
-        $post['name'], // Nombre del destinatario
-        'Envio Exitoso!', // Asunto 
-        $template_user // Template usuario
-      );
-
-      // Enviar mail al Cliente
-      $send = $this->sendmail(
-        $post['email'], // Remitente 
-        $post['email'], // Nombre Remitente 
-        $post['email'], // Responder a:
-        $post['email'], // Remitente al nombre: 
-        EMAIL_CLIENT, // Destinatario 
-        NAME_CLIENT, // Nombre del destinatario
-        'Nueva consulta desde el ' . $post['origin'], // Asunto 
-        $template_client // Template usuario
-      );
-
-      return $send;
+      return $template_final;
 
     }
    

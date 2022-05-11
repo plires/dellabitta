@@ -47,16 +47,40 @@
 	  	//grabamos en la base de datos
 		  $save = $db->getRepoContacts()->saveContactFormContactInBDD($_POST);
 
-		  //Enviamos los mails al cliente y usuario
 		  $app = new App;
 
 		  // Registramos en Perfit el contacto
 		  $app->registerEmailContactsInPerfit(API_KEY_PERFIT, LIST_PERFIT, $_POST);
 
-	  	//Enviamos los mails al cliente y usuario
-		  $sendEmails = $app->prepareEmailFormContacto($_POST);
+	  	//Envios
+		  $template_client = $app->prepareEmailFormContacto($_POST, 'to_client');
+		  // $template_user = $app->prepareEmailFormContacto($_POST, 'to_user');
 
-		  if ($sendEmails) {
+		  // Enviar mail al usuario
+      // $send_user = $app->sendmail(
+      //   EMAIL_CLIENT, // Remitente 
+      //   NAME_CLIENT, // Nombre Remitente 
+      //   EMAIL_CLIENT, // Responder a:
+      //   NAME_CLIENT, // Remitente al nombre: 
+      //   $_POST['email'], // Destinatario 
+      //   $_POST['name'], // Nombre del destinatario
+      //   'Envio Exitoso!', // Asunto 
+      //   $template_user // Template usuario
+      // );
+      
+      // Enviar mail al Cliente
+      $send_client = $app->sendmail(
+        $_POST['email'], // Remitente 
+        $_POST['name'], // Nombre Remitente 
+        $_POST['email'], // Responder a:
+        $_POST['name'], // Remitente al nombre: 
+        EMAIL_CLIENT, // Destinatario 
+        NAME_CLIENT, // Nombre del destinatario
+        'Nueva consulta desde el ' . $_POST['origin'], // Asunto 
+        $template_client // Template cliente
+      );
+
+		  if ($send_client) {
 
 		  	$msg_contacto = 'Mensaje recibido. Le contestaremos a la brevedad. Muchas gracias!';
 

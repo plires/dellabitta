@@ -236,7 +236,7 @@
 	<script src="https://www.google.com/recaptcha/api.js?render=<?= RECAPTCHA_KEY_SITE ?>"></script>
 	<script type="text/javascript" src="./node_modules/aos/dist/aos.js"></script>
 	<script type="text/javascript" src="./js/app.js"></script>
-	<script src="js/formsContact.js"></script>
+	<script src="./js/formsContact.js"></script>
 
 </body>
 
