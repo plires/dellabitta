@@ -4,10 +4,38 @@ require('class.smtp.php');
 require('class.phpmailer.php');
 require_once 'vendor/autoload.php';
 
-use \DrewM\MailChimp\MailChimp;
-
   class App 
     {
+
+      public function registerEmailContactsInPerfit($api, $list, $post) 
+      {
+
+        $date = date("d-M-y H:i");
+
+        $perfit = new PerfitSDK\Perfit( ['apiKey' => $api ] );
+        $listId = $list;
+
+        $response = $perfit->post('/lists/' .$listId. '/contacts', 
+          [
+            'firstName' => $post['name'], 
+            'email' => $post['email'],
+            'customFields' => 
+              [
+                [
+                  'id' => 11, 
+                  'value' => $post['phone']
+                ],
+                [
+                  'id' => 12, 
+                  'value' => $post['origin'] . ' - ' . $date
+                ]
+              ]
+          ]          
+        );
+
+        return $response;
+          
+      }
 
       public function registerEmailInMailchimp($api, $listId, $data)
       {

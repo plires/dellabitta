@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "eed1916fdec9bf714affae8b1b8e8411",
+    "packages": [
+        {
+            "name": "perfitdev/sdkphp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/perfitdev/sdkphp.git",
+                "reference": "e6d1a41149086ef861743010bf82068b4c014153"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/perfitdev/sdkphp/zipball/e6d1a41149086ef861743010bf82068b4c014153",
+                "reference": "e6d1a41149086ef861743010bf82068b4c014153",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PerfitSDK": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "PHP SDK for Perfit",
+            "keywords": [
+                "perfit",
+                "php",
+                "sdk"
+            ],
+            "support": {
+                "issues": "https://github.com/perfitdev/sdkphp/issues",
+                "source": "https://github.com/perfitdev/sdkphp/tree/master"
+            },
+            "time": "2020-12-18T21:06:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "perfitdev/sdkphp": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

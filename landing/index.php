@@ -60,8 +60,8 @@
 	    //Enviamos los mails al cliente y usuario
 	    $app = new App;
 
-	    // Registramos en Mailchimp el contacto
-	    $app->registerEmailInMailchimp(API_KEY_MAILCHIMP, LIST_ID, $_POST);
+	    // Registramos en Perfit el contacto
+	    $app->registerEmailContactsInPerfit(PERFIT_APY_KEY, PERFIT_LIST, $_POST);
 
 	    $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $_POST);
 	    $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $_POST);

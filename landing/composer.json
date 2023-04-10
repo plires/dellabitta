@@ -1,0 +1,5 @@
+{
+    "require": {
+        "perfitdev/sdkphp": "dev-master"
+    }
+}
