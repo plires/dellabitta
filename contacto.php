@@ -102,11 +102,11 @@
 
 			  			<div class="content">
 								<h3>Teléfono</h3>
-								<a href="tel:1142423920" rel="noopener" target="_blank">
-									+54 11 42423920
+								<a href="tel:1142021239" rel="noopener" target="_blank">
+									+54 11 4202 1239
 								</a><br>
-								<a href="tel:1142423920" rel="noopener" target="_blank">
-									Fax. +54 11 42482162
+								<a href="tel:1142482162" rel="noopener" target="_blank">
+									Fax. +54 11 4248 2162
 								</a>
 							</div>
 

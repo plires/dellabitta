@@ -13,7 +13,7 @@
             Pcia. de Buenos Aires. Argentina
           </a> <br>
           <a class="transition" rel="noopener" target="_blank"  href="tel:1142423920">
-            +54 11 4242.3920 - 4248.2161
+            +54 11 4202.1239 - 4248.2161
           </a>
         </div>
       </div>
