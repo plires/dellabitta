@@ -8,6 +8,7 @@
 .phpintel
 /vendor
 /videos
+/firmas
 /img
 /includes/config.inc.php
 **/.DS_Store into
