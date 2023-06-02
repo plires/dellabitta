@@ -12,8 +12,8 @@
             (1826) Remedios de Escalada <br>
             Pcia. de Buenos Aires. Argentina
           </a> <br>
-          <a class="transition" rel="noopener" target="_blank"  href="tel:1142423920">
-            +54 11 4202.1239 - 4248.2161
+          <a class="transition" rel="noopener" target="_blank"  href="tel:1142021239">
+            +54 11 4202.1239 - 4248.2162
           </a>
         </div>
       </div>

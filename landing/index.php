@@ -110,7 +110,7 @@
 	<header>
 		<div class="container">
 			<img class="img-fluid wow fadeInLeft" src="img/logo-della-bitta.gif" alt="logo dellabitta">
-			<span class="wow fadeInRight">+54 11 4242.3920</span>
+			<span class="wow fadeInRight">+54 11 4202.1239</span>
 		</div>
 	</header>
 
@@ -468,8 +468,9 @@
 					<div class="row h-100">
 
 						<div class="col-md-6 contactos">
-							<a href="tel:541142423920">11 4242.3920</a><br>
-							<a href="tel:541142482161">11 4248.2161</a><br>
+
+							<a href="tel:541142021239">11 4202.1239</a><br>
+							<a href="tel:541142482162">11 4248.2162</a><br>
 							<a class="btn_to_form" href="#formulario">info@dellabitta.com.ar</a><br>
 							<p>www.dellabitta.com.ar</p>
 						</div>

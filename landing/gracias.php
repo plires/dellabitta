@@ -23,7 +23,7 @@
 	<header>
 		<div class="container">
 			<img class="img-fluid wow fadeInLeft" src="img/logo-della-bitta.gif" alt="logo dellabitta">
-			<span class="wow fadeInRight">+54 11 4242.3920</span>
+			<span class="wow fadeInRight">+54 11 4202.1239</span>
 		</div>
 	</header>
 
@@ -67,17 +67,17 @@
 				</div>
 
 				<div class="col-md-6">
-					<div class="row">
+					<div class="row h-100">
 
-						<div class="col-md-6">
-							<a class="transition" href="#">
-								Héroes de Malvinas 3789<br>
-								(1826) Remedios de Escalada<br>
-								Pcia. de Buenos Aires. Argentina
-							</a>
+						<div class="col-md-6 contactos">
+
+							<a href="tel:541142021239">11 4202.1239</a><br>
+							<a href="tel:541142482162">11 4248.2162</a><br>
+							<a class="btn_to_form" href="#formulario">info@dellabitta.com.ar</a><br>
+							<p>www.dellabitta.com.ar</p>
 						</div>
 
-						<div class="col-md-6">
+						<div class="col-md-6 logos">
 							<img class="img-fluid" src="img/codipis.png" alt="codipis">
 							<span>|</span>
 							<img class="img-fluid" src="img/caba.png" alt="caba">
