@@ -109,7 +109,7 @@
 	<div class="banda"></div>
 	<header>
 		<div class="container">
-			<img class="img-fluid wow fadeInLeft" src="img/logo-della-bitta.gif" alt="logo dellabitta">
+			<img class="img-fluid wow fadeInLeft" src="img/logo-della-bitta.png" alt="logo dellabitta">
 			<span class="wow fadeInRight">+54 11 4202.1239</span>
 		</div>
 	</header>
